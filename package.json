@@ -1,0 +1,18 @@
+{
+  "name": "serc-sync",
+  "version": "0.1.0",
+  "description": "A node tool to sync data to SERC's OpenSearch index",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kirk Pettinga (Studio Lekker)",
+  "license": "ISC",
+  "dependencies": {
+    "@opensearch-project/opensearch": "^3.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
